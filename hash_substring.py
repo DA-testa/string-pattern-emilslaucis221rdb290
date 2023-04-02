@@ -3,8 +3,7 @@
 def read_input():
     input_type = input().rstrip()
     if input_type == 'F':
-        fails = input("Name of the file:")
-        with open("test/"+fails,"r") as f:
+        with open("test/06") as f:
             pattern = f.readline().rstrip()
             text = f.readline().rstrip()
     else:
